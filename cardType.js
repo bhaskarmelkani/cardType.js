@@ -19,8 +19,6 @@ function getCardType(n){
     case /^5[0-5]/.test(n):
       return 'Master Card';
     case /^4/.test(n):
-      return 'Visa Electron';
-    case /^4/.test(n):
       return 'Visa';
     default:
       return 'Other'; 
