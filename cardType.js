@@ -1,7 +1,5 @@
 function getCardType(n){
   switch(true){
-    case /^3(4|7)/.test(n):
-      return 'American Express';
     case /^(62|88)/.test(n):
       return 'China Union Pay';
     case /^(30[0-59])|(3[689])/.test(n):
@@ -16,12 +14,14 @@ function getCardType(n){
       return 'Maestro';
     case /^5019/.test(n):
       return 'Dankort';
+    case /^508[5-9][0-9]{2}|6(0((69(8[5-9]|9[0-9])|7([0-8][0-9]{2}|9[0-7][0-9]|98[0-4]))|8(00[1-9]|0[0-9]{2}|[1-4][0-9]{2}|500))|5(21[5-9]|2[2-9][0-9]{2}|30[0-9]{2}|31[0-4][0-9]))/.test(n):
+      return 'RuPay';
+    case /^3(4|7)/.test(n):
+      return 'American Express';
     case /^5[1-5]/.test(n):
       return 'Master Card';
     case /^4/.test(n):
       return 'Visa';
-    case /^508[5-9][0-9]{2}|6(0((69(8[5-9]|9[0-9])|7([0-8][0-9]{2}|9[0-7][0-9]|98[0-4]))|8(00[1-9]|0[0-9]{2}|[1-4][0-9]{2}|500))|5(21[5-9]|2[2-9][0-9]{2}|30[0-9]{2}|31[0-4][0-9]))/.test(n):
-      return 'RuPay';
     default:
       return 'Other'; 
   }
