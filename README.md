@@ -1,22 +1,23 @@
-Supports the following Card Types :- 
-1. American Express ( 34, 37 )
+#### Supports the following Card Types :- 
 
-2. China Union Pay ( 62, 88 )
+* American Express ( 34, 37 )
 
-3. Diners Club International ( 300-305, 309, 36, 38-39 )
+* China Union Pay ( 62, 88 )
 
-4. Discover Card ( 6011, 622126-622925, 644-649, 65 )
+* Diners Club International ( 300-305, 309, 36, 38-39 )
 
-5. JCB ( 3528-3589 )
+* Discover Card ( 6011, 622126-622925, 644-649, 65 )
 
-6. Laser ( 6304, 6706, 6771, 6709 )
+* JCB ( 3528-3589 )
 
-7. Maestro ( 5018, 5020, 5038, 5048, 5081, 5893, 5894, 5612, 6220, 6304, 6390, 6759, 6761, 6762, 6763, 0604 )
+* Laser ( 6304, 6706, 6771, 6709 )
 
-8. Dankort ( 5019 )
+* Maestro ( 5018, 5020, 5038, 5048, 5081, 5893, 5894, 5612, 6220, 6304, 6390, 6759, 6761, 6762, 6763, 0604 )
 
-9. Master Card ( 51-55 )
+* Dankort ( 5019 )
 
-10. Visa ( 4 )
+* Master Card ( 51-55 )
 
-11. RuPay(50850-50899, 606985-607984, 608001-608500, 652150-653149)
+* Visa ( 4 )
+
+* RuPay(50850-50899, 606985-607984, 608001-608500, 652150-653149)
