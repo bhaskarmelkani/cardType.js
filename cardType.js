@@ -2,7 +2,7 @@ function getCardType(n){
   switch(true){
     case /^(62|88)/.test(n):
       return 'China Union Pay';
-    case /^(30[0-59])|(3[689])/.test(n):
+    case /^((30[0-59])|(3[689]))/.test(n):
       return 'Diners Club International';
     case /^(6(5|011|4[4-9]|22(12[6-9]|1[3-9][0-9]|[2-8][0-9]{2}|9([01][0-9]|2[0-5]))))/.test(n):
       return 'Discover Card';
